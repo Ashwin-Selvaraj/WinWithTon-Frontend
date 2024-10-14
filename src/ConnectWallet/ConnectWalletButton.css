@@ -1,0 +1,32 @@
+/* Ensure that the parent container has a relative positioning */
+.app-container {
+    position: relative; /* This makes the absolute positioning of children relative to this */
+    width: 100%; /* Full width */
+    height: 100vh; /* Full viewport height */
+}
+
+.button-container {
+    position: absolute; /* Position relative to .app-container */
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    display: flex; /* Align buttons horizontally */
+    gap: 10px; /* Space between buttons */
+    z-index: 1000; /* Ensures the buttons are on top */
+}
+
+.wallet-button,
+.disconnect-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Example color */
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.wallet-button:hover,
+.disconnect-button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}

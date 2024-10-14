@@ -1,0 +1,193 @@
+/* RockPaperScissors.css */
+
+/* AppContainer */
+.app-container {
+    background-color: #223a5f;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* ResultContainer */
+  .result-container {
+    padding: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    align-items: center;
+  }
+  
+  /* Option */
+  .option {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  /* OptionsContainer */
+  .options-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* ScoreContainer */
+  .score-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+  }
+  
+  /* ScorePhrase */
+  .score-phrase {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #223a5f;
+  }
+  
+  /* ScoreNumber */
+  .score-number {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #223a5f;
+  }
+  
+  /* GameViewContainer */
+  .game-view-container {
+    width: 65%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* GameOptionsList */
+  .game-options-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 480px;
+    flex-wrap: wrap;
+  }
+  
+  /* TriggerButton */
+  .trigger-button {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #223a5f;
+    padding: 8px 15px;
+    margin: 8px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  /* PopupContainer */
+  .popup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* CloseButton */
+  .close-button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  /* PopUpImage */
+  .popup-image {
+    width: 90%;
+    align-self: center;
+  }
+  
+  /* PopUpBody */
+  .popup-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  /* GameResultViewContainer */
+  .game-result-view-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 560px;
+    justify-content: center;
+  }
+  
+  /* SelectedOptionsContainer */
+  .selected-options-container {
+    display: flex;
+    width: 80%;
+    max-width: 600px;
+    justify-content: space-between;
+  }
+  
+  /* GameUserOptionContainer */
+  .game-user-option-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* GameParticipantText */
+  .game-participant-text {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* GameParticipantChoiceImage */
+  .game-participant-choice-image {
+    width: 170px;
+    height: 170px;
+  }
+  
+  /* ResultText */
+  .result-text {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+  
+  /* PlayAgainButton */
+  .play-again-button {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #223a5f;
+    padding: 8px 15px;
+    margin: 8px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    align-self: center;
+  }
+  
